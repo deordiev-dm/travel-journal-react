@@ -1,0 +1,33 @@
+.header {
+  position: fixed;
+  width: 100%;
+
+  .header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+    min-height: 55px;
+
+    background-color: #f55a5a;
+    color: #fff;
+  }
+
+  .header__icon {
+    height: 24px;
+    width: 24px;
+  }
+
+  .header__title {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}
+
+.main {
+  .main__container {
+    padding-top: calc(55px + 45px); /* header height + padding */
+    padding-bottom: 30px;
+  }
+}

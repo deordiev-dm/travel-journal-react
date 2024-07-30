@@ -1,0 +1,9 @@
+body {
+  font-family: Inter, "sans-serif";
+  color: #2b283a;
+}
+
+[class*="__container"] {
+  padding-left: 40px;
+  padding-right: 40px;
+}
